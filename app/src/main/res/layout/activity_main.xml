@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/groupSort"
+            android:layout_weight="1">
+
+            <RadioButton
+                android:id="@+id/radioButtonBubble"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bubble" />
+
+            <RadioButton
+                android:id="@+id/radioButtonShaker"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Shaker" />
+
+            <RadioButton
+                android:id="@+id/radioButtonComb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Comb" />
+
+            <RadioButton
+                android:id="@+id/radioButtonInsertion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Insertion" />
+
+            <RadioButton
+                android:id="@+id/radioButtonGnome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gnome" />
+
+            <RadioButton
+                android:id="@+id/radioButtonQuick"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Quick" />
+
+            <RadioButton
+                android:id="@+id/radioButtonBogo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bogo" />
+
+            <RadioButton
+                android:id="@+id/radioButtonStd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Std" />
+        </RadioGroup>
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/groupSize"
+            android:layout_weight="1">
+
+            <RadioButton
+                android:id="@+id/radioButtonXS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="10" />
+
+            <RadioButton
+                android:id="@+id/radioButtonS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="100" />
+
+            <RadioButton
+                android:id="@+id/radioButtonM"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1000" />
+
+            <RadioButton
+                android:id="@+id/radioButtonL"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="10000" />
+
+            <RadioButton
+                android:id="@+id/radioButtonXL"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="100000" />
+
+            <RadioButton
+                android:id="@+id/radioButtonXXL"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1000000" />
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:text="Time:" />
+
+    <Button
+        android:id="@+id/buttonSort"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sort" />
+
+</LinearLayout>
